@@ -11,5 +11,5 @@ then wait a second then type this again:
 ```bash
 python app.py
 ```
-the app.py is depends on ur file name, if ur file name is money.py then type python ```bash
+the app.py is depends on ur file name, if ur file name is money.py then type python ```
 money.py```according to ur file :)
