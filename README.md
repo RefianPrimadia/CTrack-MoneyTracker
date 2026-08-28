@@ -7,7 +7,7 @@ Website-based application using Python, calculating income and expenses as well 
 ```bash
 pip install flask
 ```
-then wait a second then type this again:
+after that, wait a second then type like this:
 ```bash
 python app.py
 ```
