@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(120deg,#3c6680,#e2ebf0);
+}
+
+.app{
+    width:650px;
+    margin:25px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+}
+
+.card{
+    margin-top:15px;
+    padding:15px;
+    background:#f5f7fa;
+    border-radius:15px;
+}
+
+input, select, button{
+    width:100%;
+    padding:10px;
+    margin-top:8px;
+}
+
+button{
+    background:#2364dd;
+    color:white;
+    border:none;
+}

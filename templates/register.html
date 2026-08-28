@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="app">
+    <div class="title">Register</div>
+
+    <form method="POST">
+        <label>Username</label>
+        <input name="username" placeholder="Buat username" required>
+
+        <label>Password</label>
+        <div style="position:relative;">
+            <input type="password" id="pass" name="password" placeholder="Buat password" required>
+            <span onclick="togglePass()" style="position:absolute;right:10px;top:10px;cursor:pointer;">👁</span>
+        </div>
+
+        <button>Register</button>
+    </form>
+
+    <div style="text-align:center;margin-top:10px;">
+        <a href="/login">Sudah punya akun? Login</a>
+    </div>
+</div>
+
+<script>
+function togglePass(){
+    var x = document.getElementById("pass");
+    x.type = (x.type === "password") ? "text" : "password";
+}
+</script>
+
+</body>
+</html>
